@@ -241,6 +241,10 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
 }
 
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 input {
   &:focus {
     outline: 2px solid $strong-cyan;
@@ -297,8 +301,8 @@ input {
       padding: 15px;
 
       @media only screen and (max-width: 899px) {
-              padding: 10px;
-            }
+        padding: 10px;
+      }
 
       &__input {
         display: flex;
