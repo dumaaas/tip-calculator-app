@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <!-- Standarad meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Building Tip Calculator App from Frontend Mentor challenge...">
+  <meta name="keywords" content="HTML, CSS, Vue, SCSS, FrontendMentor">
+  <meta name="author" content="Marko Dumnic">
+
+  <!-- OG meta tags -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Tip Calculator App" />
+  <meta property="og:description" content="Building Tip Calculator App from Frontend Mentor challenge..." />
+  <meta property="og:url" content="https://github.com/dumaaas/tip-calculator-app" />
+  <meta property="og:image" content="https://dumaaas.github.io/qr-code-component/images/qr-code.png" />
+
+  <!-- Twitter meta tags-->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@dumaDev" />
+  <meta name="twitter:title" content="Tip Calculator App" />
+  <meta name="twitter:description" content="Building Tip Calculator App from Frontend Mentor challenge..." />
+  <meta name="twitter:image" content="https://dumaaas.github.io/qr-code-component/images/qr-code.png" />
+
+  <!-- Favicon and Title -->
+  <link rel="icon" href="<%= BASE_URL %>favicon.png">
+  <title>FrontendMentor | Tip Calculator App</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+      Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
